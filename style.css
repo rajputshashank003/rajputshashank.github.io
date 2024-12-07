@@ -1,0 +1,71 @@
+.inner-div:hover{
+    box-shadow: 0px 0px 15px black;
+    border-radius: 15%;
+}
+*{
+    transition:0.3s;
+}
+h1{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h6{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.main{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.x {
+    box-shadow: 0px 0px 25px black;
+    border-radius: 50%;
+}
+
+.img-extrashow {
+    box-shadow: 0px 0px 15px black;
+    border-radius: 50%;
+}
+body {
+    background-color: grey;
+}
+.main{
+    position: absolute;
+    height: 34em;
+    width: 34em;
+
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    border:3px solid black;
+    box-shadow: 0px 0px 15px black;
+}
+
+
+.sizeOfPieces{
+    height : 4em;
+    width: 4.2em;
+}
+
+.reset{
+    background-color:#eeeed2;
+    color: black;
+    border: 0;
+    box-shadow: 0px 0px 2px black;
+    height: 3em;
+}
+
+.reset:hover{
+    background-color: #68854c;
+    box-shadow: 0px 0px 5px black;
+}
